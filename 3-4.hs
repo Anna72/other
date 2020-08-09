@@ -17,9 +17,7 @@ infiniteE = map nDigitFromE [1..]
 
 import Data.Char
 
--- это задание уже было прислано как часть экзамена, но так как он не был проверен, вот оно еще раз
--- 
-
+--
 data Board = Board [[Bool]]
 
 booltoPic :: Bool -> Char
